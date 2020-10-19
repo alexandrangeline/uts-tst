@@ -50,7 +50,7 @@ const Form = () : ReactElement => {
     </div>
     <SweetAlert
       show={show}
-      title= {`Halo ${name}!`}
+      title= {`Hello ${name}!`}
       onConfirm={() => setShow(false)}
     />
     </React.Fragment>
